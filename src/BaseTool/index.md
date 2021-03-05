@@ -6,7 +6,7 @@ nav:
 
 ## BaseTool
 
-Demo:
+BaseTool Demo:
 
 ```tsx
 // test
