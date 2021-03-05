@@ -1,12 +1,12 @@
 ---
-title: dumi - 为组件开发场景而生的文档工具
+title: 小西瓜的工具集合
 order: 10
 hero:
-  title: dumi
-  desc: 📖 为组件开发场景而生的文档工具
+  title: 小西瓜
+  desc: 📖 小西瓜的工具集合
   actions:
     - text: 快速上手
-      link: /zh-CN/components/foo
+      link: /zh-CN/components/base-tool
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 开箱即用
@@ -46,10 +46,3 @@ $ mkdir docs && echo '# Hello dumi!' > docs/index.md
 // 预览文档
 $ npx dumi dev
 ```
-
-## 反馈与共建
-
-请访问 [GitHub](https://github.com/umijs/dumi) 或加入讨论群：
-
-<img src="https://gw.alipayobjects.com/zos/bmw-prod/877c66b3-ec81-48ca-ad7f-f3a6f7e19b42/kiprxtw0_w1004_h1346.png" width="260" />
-<img src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="260"/>

@@ -1,14 +1,13 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'tool';
 
 export default defineConfig({
   title: repo,
-  favicon:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  logo:
-    'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-  outputPath: 'docs-dist',
+  favicon: 'https://avatars.githubusercontent.com/u/18508817?s=60&v=4',
+  logo: 'https://avatars.githubusercontent.com/u/18508817?s=60&v=4',
+  outputPath: 'dist',
+  // mode: 'doc',
   mode: 'site',
   hash: true,
   // Because of using GitHub Pages
@@ -18,8 +17,13 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi-template',
+      path: 'https://github.com/mowatermelon/tool/',
     },
   ],
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
+  // locales:[['zh-CN', '中文']],
   // more config: https://d.umijs.org/config
 });
