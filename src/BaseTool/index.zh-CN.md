@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { BaseTool } from 'tool';
+import { BaseTool } from '@melonhero/tool';
 
 export default () => <BaseTool title="First Demo" />;
 ```
