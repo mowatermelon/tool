@@ -25,7 +25,7 @@ jobs:
       with:
         token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
-        folder: ./dist
+        folder: ./docs-dist
         # Set Git user.name
         git-config-name: eva
         # Set custom commit message
